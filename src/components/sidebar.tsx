@@ -26,7 +26,7 @@ function Sidebar() {
             {tab.map((item) => (
                 <Link key={item.path} href={`/home?tab=${item.path}`}>
                     <div className="h-[70px] flex items-center gap-4 p-4 cursor-pointer border-b">
-                        <span className="ml-4 flex justify-center items-center text-ins-blue">
+                        <span className="ml-4 flex justify-center items-center text-insightfy-blue">
                             {item.icon}
                         </span>
                         <p>{item.title}</p>
